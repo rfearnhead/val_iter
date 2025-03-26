@@ -1,6 +1,8 @@
 import numpy as np
 
 def val_iter(S,A,P,R, iters=1000, gamma = 0.8):
+    P = np.array(P)
+    R = np.array(R)
     V = np.zeros(((iters+1),len(S))) #initialise empty matrix for values
     pi = np.zeros(len(S),dtype=str) #initialise empty vector for pi 
     for k in range(1,(iters+1)):
