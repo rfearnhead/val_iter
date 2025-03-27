@@ -134,26 +134,4 @@ val_iter.val_iter(S,A,P,R, iters=500, gamma=0.7)
 This solution shows that if you are in either of the top squares (A or B), you want to choose to move horizontally, and if you are in squares C or D you want to move vertically.
 
 
-```python
 
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
-
-
-```python
-
-```
