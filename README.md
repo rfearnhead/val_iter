@@ -11,25 +11,6 @@ This package can be installed in Python from github using:
 !python -m pip install git+https://github.com/rfearnhead/val_iter
 ```
 
-    Collecting git+https://github.com/rfearnhead/val_iter
-      Cloning https://github.com/rfearnhead/val_iter to c:\users\fearnhe1\appdata\local\temp\pip-req-build-d632ebxw
-      Resolved https://github.com/rfearnhead/val_iter to commit faeb164dcbd37626da6244702e69ae18adf3258f
-      Installing build dependencies: started
-      Installing build dependencies: finished with status 'done'
-      Getting requirements to build wheel: started
-      Getting requirements to build wheel: finished with status 'done'
-      Preparing metadata (pyproject.toml): started
-      Preparing metadata (pyproject.toml): finished with status 'done'
-    Requirement already satisfied: numpy in c:\users\fearnhe1\stor-601\env\lib\site-packages (from val_iter-python==1.0.0) (2.1.2)
-    Note: you may need to restart the kernel to use updated packages.
-    
-
-      Running command git clone --filter=blob:none --quiet https://github.com/rfearnhead/val_iter 'C:\Users\fearnhe1\AppData\Local\Temp\pip-req-build-d632ebxw'
-    
-    [notice] A new release of pip is available: 24.2 -> 25.0.1
-    [notice] To update, run: python.exe -m pip install --upgrade pip
-    
-
 ## A simple Example
 
 We can use example 9.27 in section 9.5 of *Artificial Intelligence: Foundations and Computational Agents 2nd edition* (https://artint.info/2e/html2e/ArtInt2e.html) to see how to use this package
@@ -151,3 +132,28 @@ val_iter.val_iter(S,A,P,R, iters=500, gamma=0.7)
 
 
 This solution shows that if you are in either of the top squares (A or B), you want to choose to move horizontally, and if you are in squares C or D you want to move vertically.
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
+
+
+```python
+
+```
